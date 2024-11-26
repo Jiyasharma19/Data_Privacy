@@ -1,0 +1,74 @@
+{
+    "timestamp": "2024-11-26_16-24-29",
+    "audit_results": {
+        "data_collection": [
+            {
+                "question": "Are users informed about data collection?",
+                "response": "yes"
+            },
+            {
+                "question": "Is data collection limited to what's necessary?",
+                "response": "yes"
+            },
+            {
+                "question": "Are consent mechanisms in place?",
+                "response": "yes"
+            }
+        ],
+        "data_storage": [
+            {
+                "question": "Is data encrypted at rest?",
+                "response": "no"
+            },
+            {
+                "question": "Is sensitive data stored securely?",
+                "response": "yes"
+            },
+            {
+                "question": "Are backup policies in place?",
+                "response": "yes"
+            }
+        ],
+        "data_access": [
+            {
+                "question": "Is access to data restricted based on roles?",
+                "response": "yes"
+            },
+            {
+                "question": "Are access logs maintained and monitored?",
+                "response": "no"
+            },
+            {
+                "question": "Are strong authentication mechanisms used?",
+                "response": "yes"
+            }
+        ],
+        "compliance": [
+            {
+                "question": "Is the organization GDPR compliant?",
+                "response": "yes"
+            },
+            {
+                "question": "Are data retention policies clearly defined?",
+                "response": "no"
+            },
+            {
+                "question": "Is there a process for handling data subject requests?",
+                "response": "no"
+            }
+        ]
+    },
+    "vulnerabilities": {
+        "data_collection": [],
+        "data_storage": [
+            "Is data encrypted at rest?"
+        ],
+        "data_access": [
+            "Are access logs maintained and monitored?"
+        ],
+        "compliance": [
+            "Are data retention policies clearly defined?",
+            "Is there a process for handling data subject requests?"
+        ]
+    }
+}
